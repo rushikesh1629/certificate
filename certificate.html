@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDFC Health COI (Affinity 2.0)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main-container {
+            margin: 20px auto;
+            /* width: 50%; */
+            border: 1px solid #dcdcdc;
+            border-radius: 2px;
+            background-color: gray;
+        }
+
+        body {
+            font-family: "Manrope", sans-serif !important;
+            letter-spacing: .020rem !important;
+            background-color: #EEEEEE;
+        }
+
+        .container {
+            padding: 10px;
+            height: auto;
+            font-family: "Manrope", sans-serif !important;
+            letter-spacing: .020rem !important;
+            background-color: #fff;
+        }
+
+        .custom-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .certificate-text {
+            font-size: 1em;
+            /* font-weight: 600; */
+        }
+
+        .group-text {
+            font-size: 0.9em;
+            text-indent: 2rem;
+            margin: 10px;
+            font-weight: 500;
+
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #8e8e8e;
+            border-collapse: collapse;
+            padding: 5px;
+            width: 22%;
+            text-align: center;
+            font-family: "Manrope", sans-serif !important;
+            letter-spacing: .020rem !important;
+            font-size: 0.8rem;
+        }
+
+        .custom-font-td {
+            font-family: "Manrope", sans-serif !important;
+            letter-spacing: .020rem !important;
+            font-size: 0.8rem;
+            font-weight: 500;
+
+        }
+
+        .custom-font-weight {
+            font-family: "Manrope", sans-serif !important;
+            letter-spacing: .020rem !important;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .border-hidden tr td {
+            border: none;
+            background-color: #F2F2F2;
+        }
+
+        tr td:hover {
+            background-color: #4298f5;
+            color: white;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        /* Benefit Table end */
+
+        .border-div {
+            border: 1px solid grey;
+        }
+
+        .footer-size{
+            font-family: "Manrope", sans-serif !important;
+            letter-spacing: .020rem !important;
+            font-size: 0.9rem;
+        }
+
+
+
+
+        @media(max-width:425px) {
+            .main-container {
+                width: 87%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="container">
+            <div class="" style="margin-top: 20px;">
+                <img src="partner_logo.jpeg" alt="partner_logo" width="100">
+                <img style="position: absolute;right: 0;margin-right: 10px;" src="logo.jpeg" alt="fyntune_logo" width="150" height="40">
+            </div>
+        </header>
+        <hr>
+        <section>
+            <div class="container">
+                <span class="certificate-text"><strong> Wellness Certificate - </strong>[wellness_package_name]</span>
+                <p class="group-text">A wellness certificate has been issued by [wellness provider_name] to the
+                    [certificateholder_name], [partner_name]. This confirmation, issued based on the data
+                    provided by the [certificateholder_name], represents the availability of benefits to the
+                    individuals listed below, who are customers of [partner_name]. Details are as specified below,
+                    subject to the terms, conditions, and exclusions contained or otherwise expressed in the said
+                    package.</p>
+            </div>
+
+            <div class="container">
+                <span class="certificate-text"><strong>Certificate</strong></span>
+
+                <table style="margin-top: 10px;width: 50%;">
+                    <tbody>
+                        <tr>
+                            <td class="custom-font-td">Wellness Certificate No.</td>
+                            <td class="custom-font-weight">[Certificate No.]</td>
+                        </tr>
+                        <tr>
+                            <td class="custom-font-td">Partner Name</td>
+                            <td class="custom-font-weight">[partner_name]</td>
+                        </tr>
+                        <tr>
+                            <td class="custom-font-td">Plan Name</td>
+                            <td class="custom-font-weight">[plan name]</td>
+                        </tr>
+                        <tr>
+                            <td class="custom-font-td">Price</td>
+                            <td class="custom-font-weight">[price]</td>
+                        </tr>
+                        <tr>
+                            <td class="custom-font-td">Tax Amount</td>
+                            <td class="custom-font-weight">[tax_amount]</td>
+                        </tr>
+                        <tr>
+                            <td class="custom-font-td">Total Price</td>
+                            <td class="custom-font-weight">[total price]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="container">
+                <span class="certificate-text"><strong>Details of Beneficiaries</strong></span>
+
+                <table style="margin-top: 10px;width: 50%;">
+                    <tbody>
+                        <tr>
+                            <td class="custom-font-td">Name</td>
+                            <td class="custom-font-td">Relationship</td>
+                            <td class="custom-font-td">Birth Date</td>
+                        </tr>
+                        <tr>
+                            <td class="custom-font-weight">[certificate holder_name]</td>
+                            <td class="custom-font-weight">[relation]</td>
+                            <td class="custom-font-weight">[birth_date]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="container">
+                <span class="certificate-text"><strong>Wellness Features</strong></span>
+
+                <table style="margin-top: 10px;width: 50%;">
+                    <tbody>
+                        <tr>
+                            <td class="custom-font-td">[Benefit 1]</td>
+                        </tr>
+                        <tr>
+                            <td class="custom-font-td">[Benefit 2]</td>
+                        </tr>
+                        <tr>
+                            <td class="custom-font-td">[Benefit 3]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container footer-size">
+                <div class="border-div" style="padding: 10px;">
+                    <span><strong>Toll-free Number :</strong>1800-102-4488</span>
+                    <br>
+                    <span>
+                        <strong>E-mail :</strong>  customerfirst@wellness.com
+                     </span>
+                     <br>
+                    <span><strong>Fax Number :</strong>1800-100- 5577</span>
+                    <br>
+                    
+                    <span>
+                        Unit no 604 - 607, 6th Floor, Tower C, Unitech Cyber Park, Sector 39, Gurgaon
+                        -122001.(HARYANA)
+                    </span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
